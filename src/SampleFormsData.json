@@ -1,0 +1,573 @@
+{
+  "data": {
+    "forms": [
+      {
+        "guidelines": "Apart from the feedback provided during the interview, the mentor should provide detailed feedback about the candidate here after the interview.\nRate the candidate in skills like confidence, problem-solving & decision making, technical ability, and overall recommendation. \nPlease provide the feedback as accurately and detailed as possible. This acts as a medium : \n**for candidates **to understand the feedback and track progress\n**for recruiters** to access skillsets and hire candidates.\nPlease spend 5-10 minutes filling out your feedback.\n",
+        "name": "Mock Interview Feedback For Candidate",
+        "sections": [
+          {
+            "description": "Apart from the feedback provided during the interview, the mentor should provide detailed feedback about the candidate here after the interview.",
+            "sectionTitle": "Mock Interview Feedback",
+            "questions": [
+              
+              {
+                "id":"recSection1Question1",
+                "question": "Is the Candidate making progress?",
+                "questionType": "Yes / No",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": true,
+                    "commentsPlaceholder": "Explain why you think so\n",
+                    "condition": null,
+                    "description": null,
+                    "field": "Is Candidate Making Progress",
+                    "id": "reclmSHiLasdasd8u424enc",
+                    "question": "Is the Candidate making progress?",
+                    "required": true,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "showIf": []
+              },
+              {
+                "id":"recSection1Question2",
+                "question": "What was the session used for?",
+                "questionType": "Checkbox",
+                "qtCheckbox": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": "\n",
+                    "expandOptionsToQuestions": false,
+                    "field": "Session Usage",
+                    "id": "rec1qfUgmw1KwImJ9",
+                    "question": "What was the session used for?",
+                    "options": [
+                      "Mock Interview & Feedback",
+                      "General Discussion / Sync Up",
+                      "Resume Building",
+                      "Career Guidance"
+                    ],
+                    "required": true,
+                    "retrieveOptionsSelector": null,
+                    "showInReport": null,
+                    "type": "Multi Check",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": [
+                  
+                ]
+              },
+              {
+                "id":"recSection1Question3",
+                "question": "How you you rate the session?",
+                "questionType": "Rating",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": true,
+                    "commentsPlaceholder": "Let us know if you have any suggestions for the session\n",
+                    "condition": null,
+                    "description": null,
+                    "field": "Session Rating",
+                    "id": "recT8DoCjaeCnVllz",
+                    "question": "How you you rate the session?",
+                    "required": false,
+                    "stars": 5,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": [
+                ]
+              },
+              {
+                "id":"recSection1Question4",
+                "question": "Select all the skills/topics assessed in the session",
+                "questionType": "Select",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": "\n",
+                    "expandOptionsToQuestions": false,
+                    "field": "Candidate Skills",
+                    "id": "recjsAQrXMIsadsadZbb5l6",
+                    "options": [
+                      "DSA",
+                      "OS",
+                      "Networking",
+                      "Security",
+                      "API",
+                      "OOP",
+                      "Database",
+                      "Java",
+                      "Python",
+                      "GoLang",
+                      "C++",
+                      "C",
+                      "C#",
+                      "Code Architecture",
+                      "Version Control",
+                      "CI/CD",
+                      "Low Level System Design",
+                      "High Level System Design"
+                    ],
+                    "question": "Select all the skills/topics assessed in the session",
+                    "required": false,
+                    "retrieveOptionsSelector": null,
+                    "showInReport": true,
+                    "type": "Single Select",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtYesNo": [],
+                "showIf": [
+                  {
+                    "questions": [
+                      {
+                        "id": "recSection1Question3",
+                        "questionType": "Rating"
+                      }
+                    ],
+                    "condition": "is empty",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "id":"recSection1Question5",
+                "question": "Which situation describes you the best?",
+                "questionType": "Checkbox",
+                "qtCheckbox": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": "\n",
+                    "expandOptionsToQuestions": false,
+                    "field": "Candidate Situation",
+                    "id": "recbHtzK7IMeCG6HH",
+                    "question": "Which situation describes you the best?",
+                    "options": [
+                      "Fresher looking for their first job",
+                      "Working Professional",
+                      "Unemployed but worked before"
+                    ],
+                    "required": true,
+                    "retrieveOptionsSelector": null,
+                    "showInReport": null,
+                    "type": "Single Check",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": [
+                  
+                ]
+              }
+              
+            ]
+          },
+          {
+            "description": null,
+            "sectionTitle": "Technical Skill Assessment 👨🏽‍💻",
+            "questions": [
+              {
+                "id":"recSection2Question1",
+                "question": "Select all the skills/topics assessed in the session",
+                "questionType": "Select",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": "\n",
+                    "expandOptionsToQuestions": false,
+                    "field": "Candidate Skills",
+                    "id": "recjsAQrsdfsdfsdfXMIZbb5l6",
+                    "options": [
+                      "DSA",
+                      "OS",
+                      "Networking",
+                      "Security",
+                      "API",
+                      "OOP",
+                      "Database",
+                      "Java",
+                      "Python",
+                      "GoLang",
+                      "C++",
+                      "C",
+                      "C#",
+                      "Code Architecture",
+                      "Version Control",
+                      "CI/CD",
+                      "Low Level System Design",
+                      "High Level System Design"
+                    ],
+                    "question": "Select all the skills/topics assessed in the session",
+                    "required": true,
+                    "retrieveOptionsSelector": null,
+                    "showInReport": true,
+                    "type": "Single Select",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection2Question2",
+                "question": "Select all the skills/topics assessed in the session",
+                "questionType": "Select",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": "\n",
+                    "expandOptionsToQuestions": true,
+                    "field": "Candidate Skills",
+                    "id": "recjsAQrXMIZbb5l6",
+                    "options": [
+                      "DSA",
+                      "OS",
+                      "Networking",
+                      "Security",
+                      "API",
+                      "OOP",
+                      "Database",
+                      "Java",
+                      "Python",
+                      "GoLang",
+                      "C++",
+                      "C",
+                      "C#",
+                      "Code Architecture",
+                      "Version Control",
+                      "CI/CD",
+                      "Low Level System Design",
+                      "High Level System Design"
+                    ],
+                    "question": "Select all the skills/topics assessed in the session",
+                    "required": true,
+                    "retrieveOptionsSelector": null,
+                    "showInReport": true,
+                    "type": "Multi Select",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection2Question3",
+                "question": "Overall Technical Skill  Rating",
+                "questionType": "Rating",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": true,
+                    "commentsPlaceholder": "Comment on technical skills evaluated of the candidate.\nE.g. Strong hold on Data Manipulation but weak in statistics.\n",
+                    "condition": null,
+                    "description": null,
+                    "field": "Overall Technical Skill",
+                    "id": "recvAoFqAcChTDH7f",
+                    "question": "Overall Technical Skill  Rating",
+                    "required": false,
+                    "stars": 5,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              }
+            ]
+          },
+          {
+            "description": null,
+            "sectionTitle": "Behavioural Skill Assessment 🗣",
+            "questions": [
+              {
+                "id":"recSection3Question1",
+                "question": "Communication",
+                "questionType": "Rating",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": false,
+                    "commentsPlaceholder": null,
+                    "condition": null,
+                    "description": null,
+                    "field": "Communication",
+                    "id": "recyofHk8WDebJs3C",
+                    "question": "Communication",
+                    "required": true,
+                    "stars": 5,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection3Question2",
+                "question": "Proactiveness",
+                "questionType": "Rating",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": null,
+                    "commentsPlaceholder": null,
+                    "condition": null,
+                    "description": null,
+                    "field": "Proactiveness",
+                    "id": "recJIX5sVwMzYlTDz",
+                    "question": "Proactiveness",
+                    "required": false,
+                    "stars": 5,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection3Question3",
+                "question": "Confidence",
+                "questionType": "Rating",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": null,
+                    "commentsPlaceholder": null,
+                    "condition": null,
+                    "description": null,
+                    "field": "Confidence",
+                    "id": "recLllbbtXhN1UebE",
+                    "question": "Confidence",
+                    "required": false,
+                    "stars": 5,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection3Question4",
+                "question": "Unnamed record",
+                "questionType": "Input",
+                "qtCheckbox": [],
+                "qtInput": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": null,
+                    "field": "Overall Behavioural Feedback",
+                    "id": "rec2IitInUPkNfUns",
+                    "placeholder": "Comments on the behavioural skills of the candidate\n",
+                    "question": "Questions",
+                    "required": false,
+                    "showInReport": true,
+                    "type": "Long Text",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection3Question5",
+                "question": "Unnamed record",
+                "questionType": "Input",
+                "qtCheckbox": [],
+                "qtInput": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": null,
+                    "field": "Overall Behavioural Feedback",
+                    "id": "rec2IitInasdasdasdasdasdadUPkNfUns",
+                    "placeholder": "Comments on the behavioural skills of the candidate\n",
+                    "question": "Questions",
+                    "required": true,
+                    "showInReport": true,
+                    "type": "Short Text",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection3Question6",
+                "question": "What was the session used for Page 3?",
+                "questionType": "Checkbox",
+                "qtCheckbox": [
+                  {
+                    "activeStatus": "Active",
+                    "condition": null,
+                    "description": "\n",
+                    "expandOptionsToQuestions": null,
+                    "field": "Session Usage",
+                    "id": "recjhkeipounhij",
+                    "question": "What was the session used for?",
+                    "options": [
+                      "Mock Interview & Feedback",
+                      "General Discussion / Sync Up",
+                      "Resume Building",
+                      "Career Guidance"
+                    ],
+                    "required": false,
+                    "retrieveOptionsSelector": null,
+                    "showInReport": null,
+                    "type": "Multi Check",
+                    "followupQuestions": []
+                  }
+                ],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": [
+                  {
+                    "questions": [
+                      {
+                        "id": "recSection3Question5",
+                        "questionType": "Input"
+                      }
+                    ],
+                    "condition": "is not empty",
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": null,
+            "sectionTitle": "Overall Interview Feedback 📝",
+            "questions": [
+              {
+                "id":"recSection4Question1",
+                "question": "What is the Interview Readyness of the Candidate?",
+                "questionType": "Scale",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": null,
+                    "commentsPlaceholder": null,
+                    "condition": null,
+                    "description": null,
+                    "endingLabel": "Ready for Actual Interviews",
+                    "field": "Interview Readyness",
+                    "id": "recnA3pEBwlGJHsZw",
+                    "followupQuestions": [],
+                    "question": "What is the Interview Readyness of the Candidate?",
+                    "required": true,
+                    "scale": 10,
+                    "showInReport": null,
+                    "startingLabel": "Needs significant time"
+                  }
+                ],
+                "qtSelect": [],
+                "qtYesNo": [],
+                "showIf": []
+              },
+              {
+                "id":"recSection4Question2",
+                "question": "Is the Candidate making progress?",
+                "questionType": "Yes / No",
+                "qtCheckbox": [],
+                "qtInput": [],
+                "qtRating": [],
+                "qtScale": [],
+                "qtSelect": [],
+                "qtYesNo": [
+                  {
+                    "activeStatus": "Active",
+                    "comments": true,
+                    "commentsPlaceholder": "Explain why you think so\n",
+                    "condition": null,
+                    "description": null,
+                    "field": "Is Candidate Making Progress",
+                    "id": "reclmSHiL8u424enc",
+                    "question": "Is the Candidate making progress?",
+                    "required": false,
+                    "showInReport": true,
+                    "followupQuestions": []
+                  }
+                ],
+                "showIf": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
